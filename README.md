@@ -32,3 +32,17 @@ Test questions answered correctly with real-time sources:
 
 Next steps: Add rate-limit delays, better filtering prompt, query refinement, browse chaining for code PoCs, then full auditor crew scaffolding.
 
+
+## Cleanup - February 24, 2026
+
+All test scripts now organized under src/auditor/tests:
+- ddgs_test.py          → main DDGS + Gemini + CrewAI working example
+- factual_test.py       → LLM factual comparison (Gemini vs Groq)
+- test_llms.py          → initial LLM connection smoke test
+
+conftest.py never existed in this project.
+
+Repo is now clean — all progress permanently saved.
+
+Next: rate-limit safety, enhanced prompts, browse tool for PoC code extraction, then full smart contract auditor crew.
+
